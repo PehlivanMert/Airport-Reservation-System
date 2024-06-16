@@ -7,6 +7,9 @@ import dev.pehlivan.airportreservationsystem.model.entity.Passenger;
 import dev.pehlivan.airportreservationsystem.model.entity.Ticket;
 import dev.pehlivan.airportreservationsystem.repository.AirportCompanyRepository;
 import dev.pehlivan.airportreservationsystem.service.AirportCompanyService;
+import dev.pehlivan.airportreservationsystem.service.FlightService;
+import dev.pehlivan.airportreservationsystem.service.PassengerService;
+import dev.pehlivan.airportreservationsystem.service.TicketService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

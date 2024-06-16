@@ -22,5 +22,5 @@ public interface FlightService {
 
     Flight getFlightByCode(String code);
 
-    List<Flight> getFlightsByAirportCompany(String code);
+    List<Flight> getFlightsByAirportCompany(String airportCompanyName);
 }
