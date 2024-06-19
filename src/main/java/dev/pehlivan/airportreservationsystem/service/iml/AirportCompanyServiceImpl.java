@@ -1,6 +1,7 @@
 package dev.pehlivan.airportreservationsystem.service.iml;
 
 import dev.pehlivan.airportreservationsystem.exception.NotFoundException;
+import dev.pehlivan.airportreservationsystem.exception.QuotaIsFullException;
 import dev.pehlivan.airportreservationsystem.model.entity.AirportCompany;
 import dev.pehlivan.airportreservationsystem.model.entity.Flight;
 import dev.pehlivan.airportreservationsystem.model.entity.Passenger;
