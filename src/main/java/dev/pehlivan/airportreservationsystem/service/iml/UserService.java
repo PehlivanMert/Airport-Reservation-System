@@ -34,7 +34,7 @@ public class UserService {
 //    private void postConstruct() {
 //        // Sample test admin user insert
 //        User admin = new User();
-//        admin.setUsername("admin-rmzn");
+//        admin.setUsername("admin-mert");
 //        admin.setPassword("pass12345");
 //        admin.setEmail("admin@email.com");
 //        admin.setRoles(Collections.singletonList(roleRepository.getById(1)));
