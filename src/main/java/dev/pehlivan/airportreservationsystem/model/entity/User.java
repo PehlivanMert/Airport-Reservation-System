@@ -23,7 +23,7 @@ public class User {
     @Column(unique = true,nullable = false)
     private String email;
 
-    @Pattern(regexp = PASSWORD_PATTERN, message = "Password must contain at least 8 characters with one digit, one uppercase letter, one lowercase letter, and one special character.")
+    @Pattern(regexp = PASSWORD_PATTERN, message = "Password must contain at least 8 characters with one digit, one uppercase letter, one lowercase letter, and one special character")
     private String password;
 
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
