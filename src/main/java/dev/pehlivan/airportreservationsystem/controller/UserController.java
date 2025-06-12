@@ -13,15 +13,13 @@ import org.modelmapper.ModelMapper;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-
 @Validated
 @RestController
 @RequestMapping("/users")
 @RequiredArgsConstructor
 public class UserController {
 
-
-    private UserService userService;
+    private final UserService userService;
 
     @PostMapping("/signin")
     public String login(@Valid @RequestBody UserLoginDTO userLoginDTO) {
