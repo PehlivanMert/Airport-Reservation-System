@@ -6,12 +6,9 @@
 
     <parent>
         <groupId>org.springframework.boot</groupId>
+        
         <artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
         <version>3.3.0</version>
-=======
-        <version>3.2.3</version>
->>>>>>> a160e42 (OK)
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -155,14 +152,9 @@
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-<<<<<<< HEAD
             <version>2.0.2</version>
         </dependency>
         <!-- swagger -->
-=======
-            <version>2.3.0</version>
-        </dependency>
->>>>>>> a160e42 (OK)
 
         <!-- Spring Kafka for Apache Kafka integration -->
         <dependency>
